@@ -1,30 +1,41 @@
-What is Python? 
+# Python Intro Notes
 
-- Python is a programming language created by Guido van Rossum.
-- Used for web development (server side), software development, mathematics, system scripting.
+## What is Python?
+Python is a programming language created by Guido van Rossum.
 
-What Can Python do?
+### Uses:
+- Web development (server side)
+- Software development
+- Mathematics
+- System scripting
 
+---
+
+## What Can Python Do?
 Python can:
-  - Be used on a server to create web applications.
-  - Be used alongside software to create workflows.
-  - Connect to database systems. It can aslo read and modify files.
-  - Be used to handle big data and perform complex mathematics.
-  - Be used for rapid prototyping, or for production-ready software development.
+- Create server-side web applications
+- Be used alongside software to automate workflows
+- Connect to databases + read & modify files
+- Handle big data + perform complex mathematics
+- Be used for rapid prototyping or production-ready software
 
-Why Python?
+---
 
-- Works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
-- Python has a simple syntax similar to the English language.
-- Has syntax that allows developers to write programs with fewer lines than some other programming languages.
-- Runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
-- Can be treated in a procedural way, an object-oriented way of a functional way.
+## Why Python?
+- Works on Windows, Mac, Linux, Raspberry Pi, etc.
+- Simple syntax similar to English
+- Shorter code than many languages
+- Interpreter → runs code immediately (fast to test ideas)
+- Supports procedural, object-oriented, and functional programming
 
-Python Syntax compared to other programming languages:
-  - Python was designed for readability, and has some similarities to the English langauge with influence from mathematics.
-  - Uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
-  - Python relies on indentation, using whitespace, to define scope; such as scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+---
 
-  Example:
+## Python Syntax vs Other Languages
+- Designed for readability, influenced by mathematics
+- Uses **new lines** instead of semicolons
+- Uses **indentation (whitespace)** instead of curly brackets `{ }`
+  to define the scope of loops, functions, classes, etc.
 
-  print("Hello, World!")
+---
+
+## Example
