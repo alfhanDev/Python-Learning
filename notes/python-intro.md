@@ -25,7 +25,7 @@ Python can:
 - Works on Windows, Mac, Linux, Raspberry Pi, etc.
 - Simple syntax similar to English
 - Shorter code than many languages
-- Interpreter → runs code immediately (fast to test ideas)
+- Interpreter so it runs code immediately (fast to test ideas)
 - Supports procedural, object-oriented, and functional programming
 
 ---
@@ -33,7 +33,7 @@ Python can:
 ## Python Syntax vs Other Languages
 - Designed for readability, influenced by mathematics
 - Uses **new lines** instead of semicolons
-- Uses **indentation (whitespace)** instead of curly brackets `{ }`
+- Uses **indentation (whitespace)** instead of curly brackets '{ }'
   to define the scope of loops, functions, classes, etc.
 
 ---
