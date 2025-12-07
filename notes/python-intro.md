@@ -39,3 +39,4 @@ Python can:
 ---
 
 ## Example
+print("Hello, World!")
