@@ -1,62 +1,57 @@
 # Python Syntax
 
-## Execute Python Syntax
+## Execute Python syntax
 Python syntax can be executed directly from the command line.
 
 ---
 
 ## Python Indentation
 - Indentation refers to the spaces at the beginning of a code line.
-- Where in other programming languages the indentation is for readability only, in Python it is very important.
+- Where in other programming languages the indentation in a code is for readability only, the indentation in Python is very important.
 - Python uses indentation to indicate a block of code.
 
 ### Example:
-```python
-if 5 > 2:
-    print("Five is greater than two!")
-```
+
+    if 5 > 2:
+        print("Five is greater than two!")
 
 ### Python will give you an error if you skip the indentation
 
 #### Example  
-Syntax Error (on purpose):
-```
-if 5 > 2:
-print("Five is greater than two!")
-```
+Syntax Error:
 
-### The number of spaces is up to you as a programmer.  
-The most common use is four, but it has to be at least one.
+    if 5 > 2:
+    print("Five is greater than two!")
+
+### The number of spaces is up to you as a programmer, the most common use is four, but it has to be at least one.
 
 #### Example:
-```python
-if 5 > 2:
-    print("Five is greater than two!")    # 4 spaces
 
-if 5 > 2:
-        print("Five is greater than two!")  # 8 spaces
-```
+    if 5 > 2:
+        print("Five is greater than two!") 
+
+    if 5 > 2:
+                print("Five is greater than two!") 
 
 ---
 
 ## Python Variables
-- In Python, variables are created when you assign a value to them.
+- In python, variables are created when you assign a value to it.
 - Python has no command for declaring a variable.
 
 ### Example:
-```python
-x = 5
-y = "Hello, World!"
-```
+
+    x = 5
+    y = "Hello, World!"
 
 ---
 
 ## Comments
-- Python has commenting capability for in-code documentation.
-- Comments start with `#`, and Python ignores the rest of the line.
+- Python has commenting capability for the purpose of in-code documentation.
+- Comments start with a #, and Python will render the rest of the line as a comment.
 
 ### Example:
-```python
-# This is a comment
-print("Hello, World!")
-```
+
+    # This is a comment.
+    print("Hello, World!")
+
