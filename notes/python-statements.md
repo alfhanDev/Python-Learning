@@ -6,7 +6,8 @@
 - A statement usually ends at the end of a line.
 
 ### Example
-print("Python is fun!")
+    
+    print("Python is fun!")
 
 Python knows this is one complete statement without needing a semicolon.
 
@@ -16,9 +17,10 @@ Python knows this is one complete statement without needing a semicolon.
 - Python executes statements from top to bottom, one after another.
 
 ### Example
-print("Hello World!")
-print("Have a good day.")
-print("Learning Python is fun!")
+    
+    print("Hello World!")
+    print("Have a good day.")
+    print("Learning Python is fun!")
 
 Execution order:
 1. Prints "Hello World!"
@@ -32,14 +34,17 @@ Execution order:
 - This is rarely used because it reduces readability.
 
 ### Example
-print("Hello"); print("How are you?"); print("Bye bye!")
+    
+    print("Hello"); print("How are you?"); print("Bye bye!")
 
 If two statements are placed on the same line with no semicolon, Python raises an error.
 
 ### Example
-print("Python is fun!") print("Really!")
+    
+    print("Python is fun!") print("Really!")
 Result:
-SyntaxError: invalid syntax
+    
+    SyntaxError: invalid syntax
 
 Best Practice: Put each statement on its own line to keep code easy to understand.
 
