@@ -4,15 +4,15 @@
 
 The print() function is used to display text or output values.
 
-### Example
-print("Hello World!")
+Example:
+    print("Hello World!")
 
 You can use print() as many times as you want. Each call prints on a new line.
 
-### Example
-print("Hello World!")
-print("I am learning Python.")
-print("It is awesome!")
+Example:
+    print("Hello World!")
+    print("I am learning Python.")
+    print("It is awesome!")
 
 ---
 
@@ -20,27 +20,27 @@ print("It is awesome!")
 
 Text in Python must be placed inside quotes. You can use either double quotes " " or single quotes ' '.
 
-### Example
-print("This will work!")
-print('This will also work!')
+Example:
+    print("This will work!")
+    print('This will also work!')
 
 If you forget to use quotes, Python will give an error.
 
-### Example
-print(This will cause an error)
+Example:
+    print(This will cause an error)
 Result:
-SyntaxError: invalid syntax
+    SyntaxError: invalid syntax
 
 ---
 
 ## Print Without a New Line
 
-By default, print() ends with a new line.
+By default, print() ends with a new line.  
 To print multiple values on the same line, use the end parameter.
 
-### Example
-print("Hello World!", end=" ")
-print("I will print on the same line.")
+Example:
+    print("Hello World!", end=" ")
+    print("I will print on the same line.")
 
 There is a space after end=" " to make the text easier to read.
 
@@ -52,16 +52,16 @@ There is a space after end=" " to make the text easier to read.
 
 You can use print() to display numbers. Numbers are not placed inside quotes.
 
-### Example
-print(3)
-print(358)
-print(50000)
+Example:
+    print(3)
+    print(358)
+    print(50000)
 
 You can also do math inside print().
 
-### Example
-print(3 + 3)
-print(2 * 5)
+Example:
+    print(3 + 3)
+    print(2 * 5)
 
 ---
 
@@ -69,5 +69,5 @@ print(2 * 5)
 
 You can combine text and numbers in one print() call by separating them with commas.
 
-### Example
-print("I am", 35, "years old.")
+Example:
+    print("I am", 35, "years old.")
